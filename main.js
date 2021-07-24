@@ -3,7 +3,7 @@ function setup(){
     canvas.center();
     video = createCapture(VIDEO);
     video.hide()
-    classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/efPZ4Sz2x/model.json",modelLoaded);
+    classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/AhFd7pNC0/model.json",modelLoaded);
 
 }
 
